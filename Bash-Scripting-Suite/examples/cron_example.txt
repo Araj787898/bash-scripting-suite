@@ -1,0 +1,5 @@
+# Cron examples for bash_scripting_suite
+# daily update at 3am
+0 3 * * * /path/to/update_cleanup.sh >> /var/log/bash_suite/update.log 2>&1
+# daily backup at 4am
+0 4 * * * /path/to/backup.sh >> /var/log/bash_suite/backup.log 2>&1
